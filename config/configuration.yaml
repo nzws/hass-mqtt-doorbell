@@ -10,3 +10,8 @@ logger:
   default: info
   logs:
     custom_components.integration_blueprint: debug
+
+mqtt_doorbell:
+  doorbells:
+    - name: Example Doorbell
+      topic: doorbell/rds
